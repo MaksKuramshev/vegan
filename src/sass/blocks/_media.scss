@@ -1,0 +1,128 @@
+@media (max-width: 1279px) {
+    .container {
+        width: 768px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        &__basket {
+            img {
+                height: 20px;
+            }
+        }
+    }
+    .logo {
+        &__wrapper {
+            width: 320px;
+            justify-content: start;
+        }
+    }
+    .promo {
+        display: block;
+        height: 992px;
+        padding: 64px 32px 32px 32px;
+        &__wrapper-left {
+            width: 100%;
+        }
+        &__picture {
+            display: block;
+            max-height: 393px;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                max-height: 393px;
+            }
+        }
+        &__wrapper {
+            padding-top: 72px;
+        }
+        
+        &__header {
+            font-size: 54px;
+            font-weight: 500;
+            line-height: 64px;   
+        }
+        &__subheader {
+            letter-spacing: -0.56px;
+        }  
+        &__buttons {
+            width: 224px;
+            height: 86px;
+            justify-content: space-between;
+            align-items:self-end;
+        }
+        &__button {
+            padding: 10px 20px;
+            margin: 0;
+        }
+    }
+    .reviews {
+        &__item {
+            img {
+                max-height: 50px;
+            }
+            &_fouth {
+                height: 54px;
+                width: 54px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 12px;
+                padding-top: 14px;
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+    .button {
+        height: 114px;
+        width: 114px;
+    }
+///////////////////////////////////////////////////
+    .order-instructions {
+        padding:100px 32px;
+        &__title-wrapper {   
+            width: 386px;
+        }
+        &__descr {
+            &_left {
+                width: 317px;
+                margin-right: 20px;
+            }
+            &_right {
+                width:279px;
+            }
+        }
+    }
+    .vegetables__wrapper {
+        max-width: 310px;
+    }
+    .title_48 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+////////////////////////////////////
+    .steps {
+        padding: 40px 40px 0 0 ;
+        &__img {
+            margin-right: 0px;
+            margin-top: 36px;
+            max-height:443px;
+            max-width: 100%;
+        }
+        &__content {
+            margin-left: -33px;
+            h2 {
+                font-size: 28px;
+                line-height: 32px; /* 114.286% */
+                letter-spacing: -1.12px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}

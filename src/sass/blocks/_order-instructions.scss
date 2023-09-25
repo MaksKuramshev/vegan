@@ -1,18 +1,18 @@
 .order-instructions {
     padding:124px 32px;
-    display: flex;
-    justify-content: space-between;
     &__wrapper {
-        width: 687px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title-wrapper {   
+        width: 614px;
     }
     &__descr {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-top: 40px;
         color: $color-black;
-        font-family: DM Sans;
         font-size: 18px;
-        font-style: normal;
         font-weight: 400;
         line-height: 24px; /* 133.333% */
         letter-spacing: -0.72px;
