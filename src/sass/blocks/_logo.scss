@@ -1,0 +1,26 @@
+.logo {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       &_footer-mod {
+        margin-top: 20px;
+        height: 18px;
+        }
+    }
+    &__name {
+        margin-left: 4px;
+        color: #141414;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px; /* 128.571% */
+        letter-spacing: -0.56px;
+        text-transform: uppercase;
+        &:hover {
+            color: $color-black;
+        }
+    }
+    &__icon {
+       margin-right:4px ;
+    }
+}

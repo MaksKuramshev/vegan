@@ -1,0 +1,54 @@
+.button {
+    display: block;
+    margin-top: 32px;
+    height: 132px;
+    width: 132px;
+    border:none;
+    border-radius: 50%;
+    background-color: $color-orange-pale;
+    color: $color-orange;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px; /* 100% */
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+    &:hover {
+        color:$color-haki;
+        background-color:$color-haki-pale;
+    }   
+    &_order {
+        background-color: $color-orange;
+        color:#fff;
+        font-size: 18px;
+        line-height: 24px;
+        height: 114px;
+        width: 114px;
+        display: block;
+        margin: 0 auto;
+        &:hover {
+            color:#fff;
+            background-color:$color-haki;
+        }         
+    }
+    div {
+        display: flex;
+        justify-content:center;
+        padding: 2px;
+        img{
+            margin-top: 16px;
+            margin-right: 4px;
+            height: 14px;
+        }
+        div{
+            transform: rotate(-14deg);
+            
+        }
+    }
+    &_rotate {
+        div{
+            transform: rotate(-14deg);
+        }   
+    }
+    
+}

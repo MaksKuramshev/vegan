@@ -1,0 +1,23 @@
+.delivery {
+    height: 465px;
+    display: flex;
+    justify-content: space-between;
+    background: url(../../img/BG_delivery.png) center center/cover no-repeat;
+    background-color: $color-orange-pale;
+    margin: 124px 0;
+    padding: 44px 64px;
+    border-radius: 80px;
+    &__descr {
+        margin: 100.5px 0;
+        span {
+            font-style:italic;
+            color:$color-haki;
+        }
+        div{
+            span {
+                font-style:italic;
+                color:$color-orange;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    padding:13px 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    //align-items:center;
+    &__logo {
+        display: flex;
+        justify-content: center;
+        a {
+            line-height: 1;//////////////////////////////////////////////////////////
+        }
+    }
+    &__basket {
+        display: flex;
+        justify-content: end;
+        a {
+            line-height: 1;
+        }
+    }
+    
+}

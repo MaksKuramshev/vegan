@@ -1,0 +1,19 @@
+.title {
+    color: $color-black;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    text-transform: uppercase;
+    &_48 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    &_center {
+        text-align: center;
+    }
+}
+
+

@@ -1,0 +1,59 @@
+footer {
+    height: 377px;
+    background-color: $color-haki-pale;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__wrapper {
+    padding: 80px 88px 80px 32px;
+}
+
+.contacts {
+    &__wrapper {
+        padding: 80px 142px 97px 0;
+    }
+    &__social{
+        width: 172px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 44px;
+        width: 44px;
+        border-radius: 10px;
+        border: 1px solid $color-black;
+    }
+    &__number {
+        padding: 40px 0 20px 0;
+        color: $color-black;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px; /* 133.333% */
+        text-transform: uppercase;
+    }
+    &__addr {
+        color:$color-black;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: -0.36px;
+    }
+}
+//////////////////////////////////////////////
+.color-icon {
+    stroke: black; fill: black;
+    &:hover { 
+        stroke: $color-orange;
+         fill: $color-orange;
+    }
+}
+
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+    }

@@ -1,0 +1,38 @@
+.sale {
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+    padding: 124px 0 124px 0;
+    &__line {
+        position: absolute;
+        width: 160%;
+        //height: 50px;
+        padding: 22px 0;
+        color: #F9F7F4;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        left:-4%;
+        
+        &_orange {
+            background-color: $color-orange;
+            transform: rotate(2.6deg);
+            span {
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+        &_green {
+            margin-top: 30px;
+            background-color:$color-haki;
+            transform: rotate(-1.5deg);
+            letter-spacing: 1.2px;
+            span {
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+    }
+    
+}

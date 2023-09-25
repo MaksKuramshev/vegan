@@ -3,57 +3,395 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-RU-Compatible" content="ie=edge">
     <title>Pulse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
-        <div class="container">
-            <header class="header">
-                <a href="#" class="header__logo">
+    <div class="container">
+        <div class="header">
+            <div class="menu__wrapper menu__wrapper_left">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#">How It Works</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Vegetables</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logo__wrapper">
+                <div class="logo__icon">
+                    <img src="icons/vector2.svg" alt="logo">
+                </div>
+                <a class="logo__name" href="#" >
+                    veggieboost
+                </a>
+            </div>
+            <!--div class="header__logo">
+                <a  href="#">
                     <img src="icons/logo.png" alt="logo">
                 </a>
-                <div class="header__official">
-                    Официальный представитель
-                    <span>Garmin, Polar, Suunto</span>
+            </!--div-->
+            <div class="header__basket">
+                <a  href="#">
+                    <img src="icons/shopping-cart.svg" alt="shopping">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------->
+    <div class="container">
+        <section class="promo">
+            <div class="promo__wrapper-left">
+                <div class="reviews">
+                    <div class="reviews__item"><img src="img/ellipse_1.png" alt=""></div>
+                    <div class="reviews__item reviews__item_second"><img src="img/ellipse_2.png" alt=""></div>
+                    <div class="reviews__item reviews__item_third"><img src="img/ellipse_3.png" alt=""></div>
+                    <div class="reviews__item reviews__item_fouth"> 2k <span>reviews</span></div>
                 </div>
-                <div class="header__contacts">
-                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button">заказать звонок</button>
-                </div>
-            </header>
-            <div class="promo__wrapper">
-                <h1 class="promo__header">Подбор пульсометра</h1>
-                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
-
-                <div class="promo__icons">
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/timer.png" alt="timer">
-                        Время подбора:
-                        10 минут
-                    </div>
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/hand-cart.png" alt="hand_card">
-                        Бесплатная
-                        доставка
-                    </div>
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/messages.png" alt="massages">
-                        Ответим
-                        на все вопросы
+                <div class="promo__wrapper">
+                    <h1 class="promo__header">organic <span>vegetables</span> <br>to your diet today!
+                    </h1>
+                    <div class="promo__subheader-wrapper">
+                        <h2 class="promo__subheader">Our expertly curated vegetable baskets are made with the freshest,
+                            highest quality vegetables available. Fresh Harvest Box has got you covered. 
+                            Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.
+                       </h2>
                     </div>
                 </div>
-                <button class="button button_main">заказать консультацию</button>
-                <div class="promo__link">
-                    или
-                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                <button class="button button_rotate"><div> shop <br> now</div></button>
+            </div>
+            <div class="promo__wrapper-right">
+               <div class="promo__picture">
+                    <img src="img/image_1.png" alt="promo">
+               </div>
+               <div class="promo__buttons">
+                    <button class="promo__button">#organic</button>
+                    <button class="promo__button">#products</button>
+                    <button class="promo__button">#basket</button>
+                    <button class="promo__button">#vegetables</button>
+               </div>
+            </div>
+        </section>
+    </div>
+    <!------------------------------------------>
+    <div class="container">
+        <section class="order-instructions">
+        
+            <div class="order-instructions__wrapper">
+                <h2 class="title title_48">To order your vegetable basket, simply follow <br> these easy steps
+                </h2>
+                <div class="order-instructions__descr">
+                    <div class="order-instructions__descr_left">
+                        Our baskets are assembled with care and delivered straight to your doorstep,
+                         so you can enjoy the taste of fresh fruit without ever leaving your home. 
+                    </div>
+                    <div class="order-instructions__descr_right">
+                        Whether you're looking for a healthy snack or a thoughtful gift,
+                         our fruit baskets are the perfect choice. 
+                    </div>
                 </div>
             </div>
+            <div class="vegetables__wrapper">
+                <img src="img/vegetables.png" alt="vegetables">
+            </div>
+        </section>
+    </div>
+    <!------------------------------------------>
+    <div class="container">
+        <section class="steps">
+            <div class="steps__img">
+                <img src="img/kid.png" alt="kid">
+            </div>
+            <div class="steps__content">
+                <h2 class="title">3 Easy Steps for Buying Fresh Vegetables</h2>
+                <div class="steps__items">
+                    <div class="steps__item">
+                        <div class="steps__num">
+                            1
+                        </div>
+                        <div class="steps__descr">
+                            Just choose the vegetable you want to order by <br>clicking on the checkboxes next to it.
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__num">
+                            2
+                        </div>
+                        <div class="steps__descr">
+                            Click on the basket and fill <br>out the form.
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__num">
+                            3
+                        </div>
+                        <div class="steps__descr">
+                            Sit back and relax! Your fresh vegetables basket <br>will be delivered.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--sale----------------------------------------------------------------------->
+    <section class="sale">
+        <div class="sale__line sale__line_orange">Discount up to <span>40%</span>! Taste the vitamins and keep your health Discount up to 40%!  
             
         </div>
+        <div class="sale__line sale__line_green">Discount up to 40%! Taste <span>the vitamins</span> and keep your health Discount up to 40%! 
+            
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="products">
+            <h2 class="title title_center">oRGANIC vegetables</h2>
+            <div class="products__descr">
+                Our organic vegetables are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get the freshest and most nutritious produce possible. 
+            </div>
+            <div class="catalog">
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Carrot</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/carrot.png" alt="carrot">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">100 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Brussel sprouts</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/brussel.png" alt="Brussel">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">80 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Tomato</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/tomato.png" alt="Tomato">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">40 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Eggplant</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/eggplant.png" alt="Eggplant">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">60 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Sweet potatoes</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/potatoes.png" alt="potatoes">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">80 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Leek</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/leek.png" alt="Leek">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">50 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Mushrooms</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/mushrooms.png" alt="Mushrooms">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">40 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Corn</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/corn.png" alt="Corn">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">60 UAH / kg</div>
+                </div>
+                <!--------------------------------------->
+                <div class="catalog-item">
+                    <div class="catalog-item__title">Radish</div>
+                    <div class="catalog-item__fruit">Plant</div>
+                    <div class="catalog-item__image-wrapper">
+                        <div class="catalog-item__image">
+                            <img src="img/products/radish.png" alt="Radish">
+                        </div>
+                        <div class="catalog-item__shadow">
+                            <img src="img/products/shadow.png" alt="shadow">
+                        </div>
+                    </div>
+                    <div class="catalog-item__weight">90 UAH / kg</div>
+                </div>
+            </div>
+            <!--button-order-->
+            <button class="button button_order">
+                <div>
+                    <img src="icons/vector-btn.svg" alt="vector">
+                    <div>oRDER</div>
+                </div>
+            </button>
+        </div>
+    </div>
+    <!--delivery-->
+    <div class="container">
+        <div class="delivery">
+            <img src="img/delivery.png" alt="delivery">
+            <div class="delivery__descr">
+                <h2 class="title">The best shipping for <br>you! <span>Your products</span> <br>
+                    always arrive in the <br><div><span>best</span> conditions!</div></h2>
+            </div>
+        </div>
+    </div>
+    <!--fresh-->
+    <div class="container">
+        <div class="fresh-box">
+            <div class="fresh-box__descr-wrapper">
+                <h2 class="title title_48">Fresh Harvest Box has got you covered
+                </h2>
+                <div class="fresh-box__descr">
+                    Our boxes are packed with delicious, nutritious vegetables, 
+                    perfect for anyone looking to eat healthier or support local farmers. 
+                    Order your box today and start enjoying the best that nature has to offer!
+                </div>
+                <form action="">
+                    <input name="phone">
+                </form>
+            </div>
+            <div class="fresh-box__image">
+                <img src="img/woman.png" alt="woman">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <div class="left__wrapper">
+                <img src="img/footer_vegetables.png" alt="vegetables">
+                <div class="logo__wrapper logo__wrapper_footer-mod">
+                    <div class="logo__icon">
+                        <img src="icons/vector.svg" alt="logo">
+                    </div>
+                    <a href="#" class="logo__name">
+                        veggieboost
+                    </a>
+                </div>
+            </div>
+            <div class="menu__wrapper">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#">How It Works</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Vegetables</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contacts__wrapper">
+                <div class="contacts__social">
+                    <a href="" class="contacts__item">
+                        <svg class="color-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Frame 52" opacity="0.8">
+                            <path id="Vector" d="M17.08 4.06023C17.29 4.06023 17.5 4.06023 17.92 4.06023V7.21023C17.71 7.21023 17.29 7.21023 16.87 7.21023C16.45 7.21023 16.03 7.21023 15.82 7.42023C15.61 7.63023 15.61 7.84023 15.61 8.33023C15.61 8.75023 15.61 9.03023 15.61 9.45023H17.92V12.1102H15.61V23.6602H12.04V12.0402H10.15V9.38023H12.04V8.47023C12.04 6.93023 12.25 5.81023 12.67 5.32023C13.3 4.41023 14.56 3.99023 16.45 3.99023C16.66 4.06023 16.87 4.06023 17.08 4.06023Z" fill="#141414"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="" class="contacts__item">
+                        <svg class="color-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icons / 40x40 / instagram" opacity="0.8">
+                            <path id="Vector" d="M25.1278 9.41152C25.1142 8.47146 24.94 7.53885 24.6067 6.65964C24.0233 5.15827 22.8354 3.97109 21.3315 3.38991C20.462 3.06332 19.5428 2.88822 18.6123 2.86835C17.4157 2.81495 17.0363 2.80005 13.9987 2.80005C10.9612 2.80005 10.5718 2.80005 9.38391 2.86835C8.45472 2.88822 7.53548 3.06332 6.666 3.38991C5.16214 3.97109 3.97298 5.15827 3.39084 6.65964C3.06369 7.52767 2.88706 8.44538 2.86965 9.37302C2.81616 10.5689 2.79999 10.9477 2.79999 13.9802C2.79999 17.0127 2.79999 17.4002 2.86965 18.5873C2.8883 19.5162 3.06369 20.4327 3.39084 21.3032C3.97422 22.8033 5.16214 23.9905 6.66725 24.5717C7.533 24.9095 8.45223 25.1007 9.38515 25.1305C10.583 25.1839 10.9624 25.2001 14 25.2001C17.0376 25.2001 17.4269 25.2001 18.6148 25.1305C19.544 25.1119 20.4632 24.9368 21.334 24.6102C22.8378 24.0278 24.0258 22.8406 24.6091 21.3405C24.9363 20.4712 25.1117 19.5547 25.1303 18.6246C25.1838 17.43 25.2 17.0512 25.2 14.0174C25.1975 10.9849 25.1975 10.5999 25.1278 9.41152ZM13.9913 19.7149C10.8144 19.7149 8.24077 17.1456 8.24077 13.974C8.24077 10.8024 10.8144 8.23302 13.9913 8.23302C17.1657 8.23302 19.7418 10.8024 19.7418 13.974C19.7418 17.1456 17.1657 19.7149 13.9913 19.7149ZM19.9707 9.35936C19.2281 9.35936 18.6298 8.7608 18.6298 8.02067C18.6298 7.28055 19.2281 6.68199 19.9707 6.68199C20.7108 6.68199 21.3103 7.28055 21.3103 8.02067C21.3103 8.7608 20.7108 9.35936 19.9707 9.35936Z" fill="#141414"/>
+                            <path id="Vector_2" d="M13.9931 17.4789C15.928 17.4789 17.4966 15.9104 17.4966 13.9754C17.4966 12.0405 15.928 10.4719 13.9931 10.4719C12.0581 10.4719 10.4896 12.0405 10.4896 13.9754C10.4896 15.9104 12.0581 17.4789 13.9931 17.4789Z" fill="#141414"/>
+                            </g>
+                        </svg>
+                            
+                    </a>
+                    <a href="" class="contacts__item">
+                        <svg class="color-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Frame 60" opacity="0.8">
+                            <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M21.21 5.24986C20.02 5.17986 17.57 5.10986 13.86 5.10986H13.37C9.80004 5.10986 7.42007 5.17986 6.23007 5.31986C4.62007 5.45986 3.50004 5.87986 2.87004 6.43986C2.31004 6.92986 1.89005 7.83986 1.75005 9.02986C1.68005 9.79986 1.61005 11.4099 1.61005 13.8599V14.2099C1.61005 16.5199 1.68004 18.1299 1.82004 18.8999C2.03004 20.0199 2.38007 20.8599 3.08007 21.3499C3.78007 21.9099 4.97005 22.2599 6.65005 22.3999C7.84005 22.4699 10.2901 22.5399 14.0001 22.5399H14.4901C18.0601 22.5399 20.4401 22.4699 21.6301 22.3299C23.2401 22.1899 24.3601 21.7699 24.9901 21.2099C25.5501 20.7199 25.97 19.8099 26.11 18.6199C26.18 17.8499 26.2501 16.2399 26.2501 13.7899V13.4399C26.2501 11.1299 26.1801 9.51986 26.0401 8.74986C25.8301 7.62986 25.4801 6.78986 24.7801 6.29986C24.0801 5.73986 22.89 5.38986 21.21 5.24986ZM18.4801 13.8599L10.7801 18.4799V9.23986L18.4801 13.8599Z" fill="#141414"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contacts__number">
+                    +380 (68) 443-94-26
+                </div>
+                <div class="contacts__addr">
+                    1678 S. Pioneer Road <br>
+                    Salt Lake City <br>
+                    UT 84104 <br>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
