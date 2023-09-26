@@ -98,6 +98,11 @@
     .vegetables__wrapper {
         max-width: 310px;
     }
+    .title {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 0 32px;
+    }
     .title_48 {
         font-size: 40px;
         line-height: 44px;
@@ -120,8 +125,131 @@
             }
         }
     }
+    ///////////////////////////////////////////
+    .sale {
+        height: 380px;
+        padding: 100px 0 ;
+        &__line {
+            position: absolute;
+            width: 160%;
+            //height: 50px;
+            padding: 16px 0;
+            color: #F9F7F4;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 32px;
+            left:-4%;
+            
+            &_orange {
+                transform: rotate(2deg);
+            }
+            &_green {
+                margin-top: 30px;
+                transform: rotate(-4deg);
+                letter-spacing: 1.2px;
+            }
+        }
+        
+    }
+    ////////////////////////////////////////
+   // title
+
+    .catalog {
+        min-height: 1960;
+        &-item {
+            width: 342px;
+            padding: 64px 10px 24px 24px;
+            margin: 10px 0;
+            &__title {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 32px; /* 118.75% */
+                letter-spacing: -1.12px;
+            }
+        }
+    }
+    .products__descr {
+        padding: 14px 0 30px 0;
+    }
+    ////////////////////////////////////////////
+    .delivery {
+        height: 534px;
+        display: block;
+        margin: 100px 0;
+        padding: 40px 80px;
+        img {
+            display: block;
+            margin: 0 auto;
+            max-height: 318px;
+        }
+        &__descr {
+            width: 544px;
+            margin: 0 auto;
+            padding-top: 40px;
+            text-align: center;
+        }
+    }
+    //////////////////////////////////////////
+    .fresh-box {
+        display: block;
+        height: 835px;
+        margin: 100px 0 173px 0;
+        &__descr-wrapper {
+            text-align: center;
+            width: 100%;
+            margin: 98px 0;
+            padding: 0 90px
+        }
+        &__descr {
+            display: block;
+            margin: 0 auto;
+            padding: 20px 0 40px 0;
+        }
+        &__image {
+            height: 463px;
+            padding-top: 22px;
+            img {
+                display: block;
+                margin: 0 auto;
+                height:440px ;
+            }
+        }
+        .feed-form {
+            margin: 0 auto;
+        }
+    }
+    ///////////////////////////////////////
+    footer {
+        height: 435px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .left__wrapper {
+        height: 217px;
+        padding: 80px 88px 0 32px;
+    }
+    .logo__wrapper_footer-mod {
+        justify-content: center;
+    }
+    .menu__wrapper_footer-mod {
+        height: 100px;
+        width: 393px;
+        padding-top: 40px;
+        order: 1;
+        align-items:start;
+    }
+    .contacts {
+        &__wrapper {
+            height: 280px;
+            padding: 80px 32px 0 0;
+        }
+    }
 
 }
+
+
 
 @media (max-width: 767px) {
 
