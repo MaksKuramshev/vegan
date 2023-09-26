@@ -52,3 +52,16 @@
     }
     
 }
+
+.send-submith {
+    position: absolute;
+    right: -5px;
+    padding: 15px 35px;
+    border-radius:100px;
+    border:none;
+    background-color:$color-orange;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
