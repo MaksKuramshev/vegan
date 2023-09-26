@@ -27,3 +27,22 @@
         } 
     }
 }
+//////////////////////FORM///////////////////////
+.feed-form {
+    margin: 0 ;
+    height: 50px;
+    width: 355px;
+    input {
+        padding: 0 20px;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        height: 48px;
+        border-radius: 100px;
+        border: 1px solid $color-black;
+        opacity: 0.3;
+    }
+}
+.form__wrapper {
+    position: relative;
+}
