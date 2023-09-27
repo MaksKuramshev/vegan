@@ -78,6 +78,8 @@
     .button {
         height: 114px;
         width: 114px;
+        font-size: 24px;
+        line-height: 24px;
     }
 ///////////////////////////////////////////////////
     .order-instructions {
@@ -101,7 +103,7 @@
     .title {
         font-size: 28px;
         line-height: 32px;
-        padding: 0 32px;
+        padding: 0;
     }
     .title_48 {
         font-size: 40px;
@@ -118,11 +120,11 @@
         }
         &__content {
             margin-left: -33px;
-            h2 {
-                font-size: 28px;
-                line-height: 32px; /* 114.286% */
-                letter-spacing: -1.12px;
-            }
+           // h2 {
+              //  font-size: 28px;
+             //   line-height: 32px; /* 114.286% */
+               // letter-spacing: -1.12px;
+           // }
         }
     }
     ///////////////////////////////////////////
@@ -252,5 +254,242 @@
 
 
 @media (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
+    .header {
+        padding: 13px 20px;
+    }
+    .menu__wrapper_left {
+        display: none;
+    }
+    .promo {
+        height: 762px;
+        padding: 48px 20px 20px 20px;
+        &__wraper {
+            padding-top: 50px;
+        }
+        &__header {
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 44px;
+        }
+        &__subheader {
+            width: 335px;
+            margin-top: 14px;
+            margin-bottom: 20px;
+        }
+        &__wrapper-right {
+            padding: 0 16px;
+        }
+        &__picture {
+            max-height: 236px;
+            img {
+                max-height: 236px;
+            }
+        }
+        &__buttons {
+            width: 169px;
+            height: 60px;
+        }
+        &__button {
+            padding: 6px 12px;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 12px;
+        }
+    }
+    .reviews__item img {
+        max-height: 40px;
+    }
+    .reviews__item_fouth {
+        height: 44px;
+        width: 44px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 10px;
+        padding-top: 10px;
+        span {
+            font-size: 8px;
+            font-weight: 400;
+            line-height: 10px; /* 125% */
+            letter-spacing: -0.32px;
+        }
+    }
+    .button {
+        height: 68px;
+        width: 68px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /////////////////////////////////////
+    .order-instructions {
+        height: 596px;
+        padding: 80px 20px;
+        &__wrapper {
+            display: block;
+            width: 335px;
+        }
+        &__title-wrapper {
+            width: 335px;
+        }
+        &__descr {
+            display: block;
+            font-size: 14px;
+            line-height: 18px;
+            &_left {
+                width: 335px;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            &_right {
+                width: 335px;
+            }
+        }
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .title_48 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .vegetables__wrapper {
+        width: 335px;
+       // height: 158px;
+        margin: 20px 0;
+    }
 
+    ///////////////////////////////////////
+    .steps {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 765px;
+        margin: 0 20px;
+        padding: 0;
+        border-radius:40px;
+        background: url('../../img/BG_mobile.png') center center/cover no-repeat;
+        background-color: $color-orange-pale;
+        &__img {
+            max-height: 362px;
+        }
+        &__content {
+            width: 344px;
+            margin-left: 20px;
+        }
+        &__items {
+            width: 295px;
+        }
+        &__item {
+            align-items:center;
+        }
+        &__num {
+            min-width: 40px;
+            height: 40px;
+        }
+    }
+    ///////////////////////////////
+    .products {
+        padding: 0 20px;
+        &__descr {
+            width: 100%;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.56px;
+        }
+    }
+    .catalog {
+        padding: 0;
+        &-item {
+            width:335px;
+            height: 443px;
+            padding: 40px 10px 20px 20px
+        }
+    }
+    .button {
+        &_order {
+            height: 80px;
+            width: 80px;
+            line-height: 24px;
+        }
+    }
+    ////////////////////////////////////////
+    .delivery {
+        margin: 80px 0;
+        padding: 80px 20px;
+        border-radius: 40px;
+        background: url(../../img/BG_mobile.png) center center/cover no-repeat;
+        background-color:$color-orange-pale;
+        img {
+            max-height: 200px;
+        }
+        &__descr {
+            width: 300px;
+        }
+    }
+    /////////////////////////////////////////
+    .fresh-box {
+        height: 664px;
+        padding: 0 20px;
+        margin: 0;
+        &__descr-wrapper {
+            padding: 0 ;
+            margin: 0;
+            h2 {
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+        &__descr {
+            width: 320px;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        &__image {
+            margin-top: 40px;
+            height: 388px;
+            border-radius:40px;
+            img {
+                max-width: 335px;
+                height: 100%;
+            }
+        }
+    }
+    .feed-form {
+        width: 335px;
+        height: 48px;
+       
+    }
+    .send-submith {
+        right: 0;
+    }
+    ////////////////////////////////////
+    footer {
+        display: block;
+        height: 640px;
+        margin-top: 80px;
+        padding: 80px 20px;
+    }
+    .left__wrapper {
+        height: 172px;
+        padding: 0;
+        img {
+            max-height: 172px;
+            width: 100%;
+        }
+    }
+    .menu__wrapper {
+        padding-top: 60px;
+        width: 100%;
+        height: 78px;
+    }
+    .contacts__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
 }
