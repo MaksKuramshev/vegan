@@ -10,15 +10,17 @@
     &__descr {
         width: 437px;
         margin: 100.5px 0;
-        span {
-            font-style:italic;
-            color:$color-haki;
-        }
-        div{
+        .title {
             span {
+                font-style:italic;
+                color:$color-haki;
+                
+            }
+            :last-child {
                 font-style:italic;
                 color:$color-orange;
             }
         }
+    
     }
 }
