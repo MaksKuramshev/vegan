@@ -61,9 +61,16 @@
             img {
                 max-height: 50px;
             }
+            &_second {
+                margin-left: 36px;
+            }
+            &_third {
+                margin-left: 72px;
+            }
             &_fouth {
                 height: 54px;
                 width: 54px;
+                margin-left: 108px;
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 12px;
@@ -276,6 +283,9 @@
             font-weight: 500;
             line-height: 44px;
         }
+        &__subheader-wrapper {
+            width: 100%;
+        }
         &__subheader {
             width: 335px;
             margin-top: 14px;
@@ -301,23 +311,35 @@
             line-height: 12px;
         }
     }
-    .reviews__item img {
-        max-height: 40px;
-    }
-    .reviews__item_fouth {
-        height: 44px;
-        width: 44px;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 10px;
-        padding-top: 10px;
-        span {
-            font-size: 8px;
-            font-weight: 400;
-            line-height: 10px; /* 125% */
-            letter-spacing: -0.32px;
+    .reviews {
+        &__item {
+            img {
+                max-height: 40px;
+            }
+            &_second {
+                margin-left: 28px;
+            }
+            &_third {
+                margin-left: 56px;
+            }
+            &_fouth {
+                height: 44px;
+                width: 44px;
+                margin-left: 84px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 10px;
+                padding-top: 10px;
+                span {
+                    font-size: 8px;
+                    font-weight: 400;
+                    line-height: 10px; /* 125% */
+                    letter-spacing: -0.32px;
+                }
+            }
         }
     }
+
     .button {
         height: 68px;
         width: 68px;
