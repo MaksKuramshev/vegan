@@ -2,11 +2,14 @@
     overflow: hidden;
     position: relative;
     height: 380px;
-    padding: 124px 0 ;
+    //padding: 124px 0 ;
+    top: 124px;
+    margin-bottom: 68px;
     &__line {
         position: absolute;
         width: 160%;
         //height: 50px;
+        top: 48px;
         padding: 22px 0;
         color: #F9F7F4;
         font-size: 40px;

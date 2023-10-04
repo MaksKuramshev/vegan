@@ -129,13 +129,15 @@
     }
     ///////////////////////////////////////////
     .sale {
-        height: 380px;
-        padding: 100px 0 ;
+        height: 352px;
+        top: 100px;
+        margin-bottom: 44px;
         &__line {
             position: absolute;
             width: 160%;
-            //height: 50px;
-            padding: 16px 0;
+            height: 64px;
+            overflow: hidden;
+            padding: 16px 30px;
             color: #F9F7F4;
             font-size: 28px;
             font-weight: 500;
@@ -147,7 +149,7 @@
             }
             &_green {
                 margin-top: 30px;
-                transform: rotate(-4deg);
+                transform: rotate(-3deg);
                 letter-spacing: 1.2px;
             }
         }
@@ -363,19 +365,19 @@
 
     ///////////////////////////////////////
     .steps {
-        width: 100%;
+        width: 335px;
         flex-direction: column-reverse;
-        height: 765px;
+        height: 725px;
         margin: 0 20px;
         padding: 0;
         border-radius:40px;
         background: url('../../img/BG_mobile.png') center center/cover no-repeat;
         background-color: $color-orange-pale;
         &__img {
-            max-height: 362px;
+            max-height: 319px;
         }
         &__content {
-            width: 344px;
+            width: 315px;
             margin-left: 20px;
         }
         &__items {
@@ -390,6 +392,37 @@
         }
     }
     ///////////////////////////////
+    .sale {
+        height: 352px;
+        top: 80px;
+        margin-bottom: -24px;
+        &__line {
+            position: absolute;
+            width: 216%;
+            height: 54px;
+            //overflow: hidden;
+            color: #F9F7F4;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28px;
+            
+            
+            &_orange {
+                transform: rotate(3deg);
+                padding: 12px 0;
+                left:-4%;
+            }
+            &_green {
+                margin-top: 30px;
+                transform: rotate(-5deg);
+                letter-spacing: 1.2px;
+                padding: 12px 0;
+                left:-41%;
+            }
+        }
+        
+    }
+    ////////////////////////////////////////
     .products {
         padding: 0 20px;
         &__descr {
