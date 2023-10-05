@@ -1,6 +1,7 @@
 .header {
     padding:13px 32px;
     display: grid;
+    background-color:white;
     grid-template-columns: repeat(3, 1fr);
     //align-items:center;
     &__logo {
@@ -17,5 +18,12 @@
             line-height: 1;
         }
     }
+    .hamburger {
+        display: none;
+    }
     
+}
+
+.mobile__menu {
+    display: none;
 }
