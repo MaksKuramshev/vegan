@@ -471,13 +471,14 @@
     }
     ////////////////////////////////////////
     .delivery {
-        margin: 80px 0;
-        padding: 80px 20px;
+        height: 484px;
+        margin: 80px 20px;
+        padding: 80px 0;
         border-radius: 40px;
         background: url(../../img/BG_mobile.png) center center/cover no-repeat;
         background-color:$color-orange-pale;
         img {
-            max-height: 200px;
+            max-height: 170px;
         }
         &__descr {
             width: 300px;
